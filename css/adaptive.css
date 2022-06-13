@@ -1,0 +1,35 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .trans {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
+
+  #header .left {
+    display: none; }
+  #header .right {
+    display: none; }
+  #header .nav {
+    padding: 0 30px; }
+
+  #reviews .reviews__list {
+    gap: 30px; }
+
+  #footer .footer-info {
+    padding: 0 50px; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #header .nav .hamb {
+    display: block; }
+  #header .nav .menu {
+    display: none; } }
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+
+/*# sourceMappingURL=adaptive.css.map */
